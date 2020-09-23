@@ -19,10 +19,10 @@
       $this -> x = $x;
       $this -> y = $y;
     }
-    public function getArea(){//////////////////////////////////
+    protected function getArea(){//////////////////////////////////
       return $this -> x * $this -> y;
     }
-    public function getPer(){///////////////////////////////////
+    protected function getPer(){///////////////////////////////////
       return 4 * $this -> x;
     }
     public function __toString(){
